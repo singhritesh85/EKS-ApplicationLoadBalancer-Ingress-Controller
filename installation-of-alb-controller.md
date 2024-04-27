@@ -1,4 +1,4 @@
-1. Create IAM Policy with the Name AWSLoadBalancerControllerIAMPolicy using below mentioned json.
+1. Create IAM Policy with the Name **AWSLoadBalancerControllerIAMPolicy** using below mentioned json.
 ```
 {
     "Version": "2012-10-17",
@@ -243,7 +243,7 @@
     ]
 }
 ```
-2. Create IAM Role AmazonEKSLoadBalancerControllerRole of Web Identity type with above created Policy, use trust-policy of Role as json written below
+2. Create IAM Role **AmazonEKSLoadBalancerControllerRole** of Web Identity type with above created Policy, use trust-policy of Role as json written below
 ```
 {
     "Version": "2012-10-17",
