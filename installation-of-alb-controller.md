@@ -293,6 +293,8 @@ metadata:
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::111122223333:role/AmazonEKSLoadBalancerControllerRole    ### Provide ARN of above created IAM Role AmazonEKSLoadBalancerControllerRole 
 ```
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/ed03f2f0-a722-43e3-99ef-50b4a143e48c)
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/39680247-b379-47f8-ab99-a155c679821b)
 <br><br/>
 kubectl apply -f sa.yaml
 <br><br/>
