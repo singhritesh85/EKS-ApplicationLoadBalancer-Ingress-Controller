@@ -244,6 +244,11 @@
 }
 ```
 2. Create IAM Role **AmazonEKSLoadBalancerControllerRole** of Web Identity type with above created Policy, use trust-policy of Role as json written below
+<br><br/>
+Retrieve EKS cluster's OIDC provider ID using the command as written below
+```
+aws eks describe-cluster --name <EKS-Cluster-Name> --query "cluster.identity.oidc.issuer" --output text | cut -d '/' -f 5
+```
 ```
 {
     "Version": "2012-10-17",
@@ -264,6 +269,10 @@
     ]
 }
 ```
+
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/0dbf9352-56db-4723-a13f-63ae57457978)
+
+
 3. create Service Account using yaml as written below
 ```
 cat sa.yaml
