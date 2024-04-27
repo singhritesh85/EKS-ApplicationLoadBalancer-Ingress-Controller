@@ -346,3 +346,5 @@ Finally do the entry of DNS Name of ALB into Route53 Reccord Set as shown in scr
 ![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/85bafca7-0595-41a5-a301-3a006a052ac6)
 ![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/466919fa-682d-435b-970a-dafd61132cee)
 
+<br><br/>
+**Reference** = https://docs.aws.amazon.com/eks/latest/userguide/lbc-manifest.html
