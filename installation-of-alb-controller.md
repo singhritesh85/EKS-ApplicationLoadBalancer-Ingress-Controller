@@ -271,8 +271,13 @@ aws eks describe-cluster --name <EKS-Cluster-Name> --query "cluster.identity.oid
 ```
 
 ![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/0dbf9352-56db-4723-a13f-63ae57457978)
-
-
+<br><br/>
+**Edit the trust-relationship of the created policy as shown in the screenshot below.**
+<br><br/>
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/eafad4e1-f753-4d1f-90e8-1c6aab38c925)
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/d57a8150-44ae-4c84-83a1-7a03a9b5cce6)
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/2c256ebb-e41f-4123-889e-d0b2b451208a)
+<br><br/>
 3. create Service Account using yaml as written below
 ```
 cat sa.yaml
