@@ -270,7 +270,7 @@ aws eks describe-cluster --name <EKS-Cluster-Name> --query "cluster.identity.oid
 }
 ```
 
-![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/0dbf9352-56db-4723-a13f-63ae57457978)
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/2fe3d1ca-135b-4728-97fc-4d0b14e9553d)
 <br><br/>
 **Edit the trust-relationship of the created policy as shown in the screenshot below.**
 <br><br/>
