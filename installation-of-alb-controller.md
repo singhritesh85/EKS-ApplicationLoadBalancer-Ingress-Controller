@@ -340,3 +340,9 @@ kubectl get deployment -n kube-system aws-load-balancer-controller
 ![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/8f4d7ca2-3f80-48b5-8fbb-5af92bd24951)
 ![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/3c10b969-cba1-4a5e-b793-3fa533a6d2f5)
 ![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/4af78b7c-4938-47f0-a78c-49750606c139)
+<br><br/>
+Finally do the entry of DNS Name of ALB into Route53 Reccord Set as shown in screenshot below and create the URL and access the created URL.
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/9110bd30-b124-42ba-8904-ca76bc1dccc3)
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/85bafca7-0595-41a5-a301-3a006a052ac6)
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/466919fa-682d-435b-970a-dafd61132cee)
+
