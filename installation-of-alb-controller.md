@@ -318,7 +318,11 @@ metadata:
   namespace: kube-system
 ---
 ```
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/2b286eff-fd5b-4e7e-bce7-38be5e4b26de)
+<br><br/>
 **Replace your-cluster-name in the Deployment spec section of the file with the name of your eks cluster.**
+<br><br/>
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/cf082762-9620-4044-8994-ff12cf39548e)
 ```
 kubectl apply -f v2_7_2_full.yaml
 curl -Lo v2_7_2_ingclass.yaml https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases/download/v2.7.2/v2_7_2_ingclass.yaml
@@ -328,3 +332,6 @@ kubectl apply -f v2_7_2_ingclass.yaml
 ```
 kubectl get deployment -n kube-system aws-load-balancer-controller
 ```
+<br><br/>
+![image](https://github.com/singhritesh85/EKS-ApplicationLoadBalancer-Ingress-Controller/assets/56765895/813a4463-e368-41b5-8fee-21efa86afb1b)
+
